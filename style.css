@@ -1,0 +1,41 @@
+/* 
+ sin nada sirve para llamar a la etiqueta html
+# sirve para llamar con id 
+. sirve para llamar la clase 
+div p {} sirve para darle estilo a todos los p que esten en un div
+* selector universal
+*/
+#titulo {
+  color: tomato;
+}
+
+.texto1 {
+  color: slateblue;
+}
+
+.texto2 {
+  color: mediumseagreen;
+}
+
+div p {
+  color: aquamarine;
+}
+
+div h2,
+div h3 {
+  color: brown;
+}
+
+* {
+  font-size: 24px;
+  color: black;
+}
+
+.color {
+  color: coral;
+  /* border: 5px cornflowerblue outset; */
+  border-style: ridge;
+  border-color: cadetblue;
+  border-radius: 5px;
+  border-width: 5px;
+}
