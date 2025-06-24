@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Introduccion HTML</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        color: red;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--CONTENIDO DE MI PAGINA WEB-->
+    <h1>MI PRIMER HEADING</h1>
+    <h2>MI SEGUNDO HEADING</h2>
+    <h3>MI TERCER HEADING</h3>
+    <h4>MI CUARTO HEADING</h4>
+    <h5>MI QUINTO HEADING</h5>
+    <h6>MI SEXTO HEADING</h6>
+    <p>Mi primer parrafo en html</p>
+    <hr />
+    <!--LInea para separar-->
+    <p>
+      Este texto es <span style="color: blue">mucho mas largo</span> y me va a
+      <br />servir para utilizar la etiqueta SPAN
+    </p>
+    <!--span sirve para identificar un texto o etiqueta y manipularla-->
+    <!--br sirve para hacer un salto de linea-->
+    <a href="https://www.google.com">IR A GOOGLE</a>
+    <!--HIPERVINCULOS con etiqueta a-->
+    <a target="_blank" href="https://www.google.com"
+      >IR A GOOGLE PESTAÑA NUEVA</a
+    >
+    <!--HIPERVINCULO EN PESTAÑA NUEVA CON target="_blank"-->
+    <br />
+    <img src="img/imagen.jpg" width="500px" />
+
+    <form action="/formulario" method="POST">
+      <label for="nombre">NOMBRE:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="NOMBRE" />
+      <br />
+      <label for="apellido">APELLIDO</label>
+      <input type="text" id="apellido" name="apellido" placeholder="APELLIDO" />
+      <br />
+      <label for="comentario">COMENTARIO:</label>
+      <textarea
+        rows="5"
+        cols="10 "
+        name="comentario"
+        id="comentario"
+        placeholder="INGRESE COMENTARIO"
+      ></textarea>
+      <br />
+      <input type="submit" />
+      <button type="button">Tipo button</button>
+      <button type="reset">Tipo reset</button>
+      <button type="submit">Tipo submit</button>
+      <button type="button">
+        <img src="img/imagen.jpg" alt="IMAGEN" width="20px " />
+      </button>
+    </form>
+
+    <!--UL es una lista no ordenada-->
+    <!--li es un list item-->
+    <ul>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+    </ul>
+
+    <!--OL es order list -->
+    <ol>
+      <li>Element 1</li>
+      <li>Element 2</li>
+      <li>Element 3</li>
+      <li>Element 4</li>
+    </ol>
+
+    <table style="border: 1px solid black">
+      <!--tr es una table row-->
+      <!--th es una table header-->
+      <!--td es una celda en una tabla-->
+      <thead>
+        <tr>
+          <th>PRODUCTO</th>
+          <th>PRECIO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Audifonos</td>
+          <td>Gratis</td>
+        </tr>
+        <tr>
+          <td>Celular</td>
+          <td>1500.00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td></td>
+        <td>TOTAL: 1500.00</td>
+      </tfoot>
+    </table>
+  </body>
+</html>
