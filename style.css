@@ -36,6 +36,7 @@ div h3 {
   /* border: 5px cornflowerblue outset; */
   border-style: ridge;
   border-color: cadetblue;
-  border-radius: 5px;
+  border-radius: 8px;
   border-width: 5px;
+  
 }

@@ -1,0 +1,21 @@
+.portada img {
+  width: 100%;
+}
+
+.encabezado {
+  height: 10%;
+  background-color: #001e5d;
+  display: flex;
+}
+
+.imglogo img {
+  width: 20%;
+}
+
+.lista {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
